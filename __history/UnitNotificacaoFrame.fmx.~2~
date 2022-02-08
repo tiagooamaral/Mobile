@@ -1,0 +1,128 @@
+object FrameNotificacao: TFrameNotificacao
+  Size.Width = 472.000000000000000000
+  Size.Height = 120.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 452.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 10.000000000000000000
+    YRadius = 10.000000000000000000
+    object Layout2: TLayout
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 382.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Layout3: TLayout
+        Align = Top
+        Size.Width = 382.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object lblUsuario: TLabel
+          Align = Client
+          AutoSize = True
+          StyledSettings = [Family]
+          Margins.Left = 10.000000000000000000
+          Size.Width = 279.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Heber'
+          TabOrder = 1
+        end
+        object lblData: TLabel
+          Align = Right
+          AutoSize = True
+          StyledSettings = [Family]
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Position.X = 299.000000000000000000
+          Size.Width = 78.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = '10/01'
+          TabOrder = 0
+        end
+      end
+      object Layout4: TLayout
+        Align = Bottom
+        Position.Y = 65.000000000000000000
+        Size.Width = 382.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object btnExcluir: TSpeedButton
+          Align = Right
+          StyledSettings = [Family, Size, Style]
+          Position.X = 302.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'EXCLUIR'
+          TextSettings.FontColor = xFFFF1717
+        end
+        object btnAceitar: TSpeedButton
+          Align = Left
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'ACEITAR'
+          TextSettings.FontColor = xFF01B70E
+        end
+      end
+      object lblTexto: TLabel
+        Align = Client
+        AutoSize = True
+        StyledSettings = [Family]
+        Margins.Left = 10.000000000000000000
+        Size.Width = 372.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF383838
+        TextSettings.VertAlign = Leading
+        Text = 
+          'O usu'#225'rio Jo'#227'o est'#225' convidando voc'#234' para o evento Reuni'#227'o de Tra' +
+          'balho. Deseja participar?'
+        TabOrder = 0
+      end
+    end
+    object Layout1: TLayout
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object imgIcone: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Align = Top
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

@@ -1,0 +1,22 @@
+program Tarefas;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  UnitLogin in 'UnitLogin.pas' {frmLogin},
+  UnitPrincipal in 'UnitPrincipal.pas' {frmPrincipal},
+  uCustomCalendar in 'uCustomCalendar.pas',
+  UnitNotificacao in 'UnitNotificacao.pas' {frmNotificacao},
+  UnitCompromisso in 'UnitCompromisso.pas' {frmCompromisso},
+  UnitNotificacaoDados in 'UnitNotificacaoDados.pas',
+  UnitCompromissoDados in 'UnitCompromissoDados.pas',
+  UnitNotificacaoFrame in 'UnitNotificacaoFrame.pas' {FrameNotificacao: TFrame};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.FormFactor.Orientations := [TFormOrientation.Portrait];
+  Application.CreateForm(TfrmLogin, frmLogin);
+  Application.Run;
+end.

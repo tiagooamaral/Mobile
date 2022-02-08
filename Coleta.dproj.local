@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/26 15:46:10.000.521,=C:\Users\tiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 15:48:49.000.568,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitLogin.fmx=C:\Users\tiago\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/01/26 15:48:49.000.568,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitLogin.pas=C:\Users\tiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 15:49:10.000.240,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Tarefas.dproj=C:\Users\tiago\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/01/26 18:30:57.000.850,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 18:31:33.000.881,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitPrincipal.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 18:31:33.000.881,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitPrincipal.fmx=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.fmx</Transaction>
+    <Transaction>2020/01/26 19:18:37.000.818,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\uCustomCalendar.pas</Transaction>
+    <Transaction>2020/01/26 20:14:05.000.934,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 20:14:27.000.309,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacao.fmx=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.fmx</Transaction>
+    <Transaction>2020/01/26 20:14:27.000.309,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacao.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 20:15:07.000.809,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 20:15:22.000.215,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitCompromisso.fmx=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.fmx</Transaction>
+    <Transaction>2020/01/26 20:15:22.000.215,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitCompromisso.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 21:11:53.000.840,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 21:13:00.000.012,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacaoDados.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 21:16:27.000.469,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 21:19:47.000.057,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitCompromissoDados.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 21:21:00.000.121,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/26 21:21:41.000.949,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacaoFrame.fmx=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.fmx</Transaction>
+    <Transaction>2020/01/26 21:21:41.000.949,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacaoFrame.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/29 23:19:32.000.273,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/29 23:19:54.000.642,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitCompromissoFrame.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/29 23:19:54.000.642,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitCompromissoFrame.fmx=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.fmx</Transaction>
+    <Transaction>2020/01/30 01:19:28.000.382,=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas</Transaction>
+    <Transaction>2020/01/30 01:19:45.000.568,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.dfm=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitDM.dfm</Transaction>
+    <Transaction>2020/01/30 01:19:45.000.568,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Unit1.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitDM.pas</Transaction>
+    <Transaction>2020/01/30 03:48:46.000.244,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacao.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitColeta.pas</Transaction>
+    <Transaction>2020/01/30 03:48:46.000.244,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacao.fmx=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitColeta.fmx</Transaction>
+    <Transaction>2020/01/30 12:42:25.000.499,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\uCustomCalendar.pas=</Transaction>
+    <Transaction>2020/01/30 12:43:13.000.789,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitCompromissoFrame.pas=</Transaction>
+    <Transaction>2020/01/30 12:44:31.000.025,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacaoDados.pas=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitColetaDados.pas</Transaction>
+    <Transaction>2020/01/30 12:44:44.000.573,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitCompromisso.pas=</Transaction>
+    <Transaction>2020/01/30 12:44:55.000.492,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitCompromissoDados.pas=</Transaction>
+    <Transaction>2020/01/30 12:46:27.000.348,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\UnitNotificacaoFrame.pas=</Transaction>
+    <Transaction>2020/01/30 12:53:54.000.229,C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Tarefas.dproj=C:\PROJETOS\Semana Delphi Mobile\Fontes\Mobile\Coleta.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

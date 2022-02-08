@@ -1,0 +1,45 @@
+unit UnitCompromisso;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, FMX.ListBox,
+  FMX.DateTimeCtrls, FMX.Edit;
+
+type
+  TfrmCompromisso = class(TForm)
+    Layout1: TLayout;
+    lblTitulo: TLabel;
+    imgFechar: TImage;
+    Layout3: TLayout;
+    edtUsuarioLogin: TEdit;
+    Layout2: TLayout;
+    DateEdit1: TDateEdit;
+    TimeEdit1: TTimeEdit;
+    Label4: TLabel;
+    btnSalvar: TSpeedButton;
+    Label1: TLabel;
+    imgCadParticipante: TImage;
+    lbNotificacoes: TListBox;
+    procedure imgFecharClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCompromisso: TfrmCompromisso;
+
+implementation
+
+{$R *.fmx}
+
+procedure TfrmCompromisso.imgFecharClick(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

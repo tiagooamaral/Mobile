@@ -1,0 +1,132 @@
+unit UnitNotificacao;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, FMX.ListBox,
+  UnitNotificacaoDados, System.Math.Vectors, FMX.TabControl, FMX.Controls3D,
+  FMX.Layers3D, FMX.Edit;
+
+type
+  TfrmNotificacao = class(TForm)
+    Layout1: TLayout;
+    imgFechar: TImage;
+    Layout2: TLayout;
+    edtUsuarioLogin: TEdit;
+    Label2: TLabel;
+    Edit1: TEdit;
+    Layout3: TLayout;
+    Label1: TLabel;
+    Layout3D1: TLayout3D;
+    Layout4: TLayout;
+    Image1: TImage;
+    Image2: TImage;
+    TabControl1: TTabControl;
+    TabItem1: TTabItem;
+    TabItem2: TTabItem;
+    Label3: TLabel;
+    Image3: TImage;
+    Layout5: TLayout;
+    Label4: TLabel;
+    Image4: TImage;
+    Label5: TLabel;
+    Layout6: TLayout;
+    Edit2: TEdit;
+    Label6: TLabel;
+    Edit3: TEdit;
+    Layout3D2: TLayout3D;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Layout7: TLayout;
+    Image6: TImage;
+    lblCriarConta: TLabel;
+    Label7: TLabel;
+    Image5: TImage;
+    procedure imgFecharClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmNotificacao: TfrmNotificacao;
+
+implementation
+
+{$R *.fmx}
+
+uses UnitNotificacaoFrame;
+
+procedure CriaFrame (n : TNotificacao);
+var
+  f : TFrameNotificacao;
+  item : TListBoxItem;
+begin
+  item := TListBoxItem.Create(nil);
+  item.text := '';
+  item.Height := 120;
+  item.Align := TAlignLayout.Client;
+  item.tag := n.id;
+
+  f := TFrameNotificacao.create(item);
+  f.parent := item;
+  f.Align := TAlignLayout.Client;
+
+  f.cIcone.Fill.Bitmap.Bitmap := n.icone;
+  f.lblUsuario.text := n.cod_usuario;
+  f.lblData.text := n.data;
+  f.lblTexto.text := n.texto;
+
+  if n.tipo = 'C' then
+    f.btnAceitar.Visible := true
+  else
+    f.btnAceitar.Visible := false;
+
+
+ { frmNotificacao.lbNotificacoes.AddOBject(item);}
+end;
+
+procedure ListarNotificacao();
+var
+  n : TNotificacao;
+  x : integer;
+begin
+{  frmNotificacao.lbNotificacoes.Items.Clear; }
+
+  for x:=1 to 5 do
+  begin
+    n.id := x;
+    n.icone := frmNotificacao.imgFechar.bitmap;
+    n.cod_usuario := 'Joao';
+    n.data := '15.01';
+    n.texto := 'O usuário João está convidando você para o evento Reunião de Trabalho. Deseja participar?';
+    n.tipo := 'C';
+
+    CriaFrame(n);
+
+  end;
+
+end;
+
+procedure TfrmNotificacao.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := TCloseAction.caFree;
+  frmNotificacao := nil;
+end;
+
+procedure TfrmNotificacao.FormShow(Sender: TObject);
+begin
+  ListarNotificacao;
+end;
+
+procedure TfrmNotificacao.imgFecharClick(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

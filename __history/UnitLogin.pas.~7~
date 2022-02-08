@@ -1,0 +1,90 @@
+unit UnitLogin;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Edit, FMX.Controls.Presentation, FMX.Layouts, FMX.TabControl,
+  System.Actions, FMX.ActnList;
+
+type
+  TfrmLogin = class(TForm)
+    Layout1: TLayout;
+    Image1: TImage;
+    Layout2: TLayout;
+    Label1: TLabel;
+    Label2: TLabel;
+    Layout3: TLayout;
+    Label4: TLabel;
+    edtUsuarioLogin: TEdit;
+    Rectangle1: TRectangle;
+    btnLogin: TSpeedButton;
+    Layout4: TLayout;
+    Image2: TImage;
+    Layout5: TLayout;
+    lblCriarConta: TLabel;
+    TabControl: TTabControl;
+    TabLogin: TTabItem;
+    TabNovaConta: TTabItem;
+    ActionList1: TActionList;
+    actLogin: TChangeTabAction;
+    actConta: TChangeTabAction;
+    Layout6: TLayout;
+    Image3: TImage;
+    Layout7: TLayout;
+    Label3: TLabel;
+    Label5: TLabel;
+    Layout8: TLayout;
+    Label6: TLabel;
+    Edit2: TEdit;
+    Rectangle2: TRectangle;
+    btnCriarConta: TSpeedButton;
+    Layout9: TLayout;
+    Image4: TImage;
+    Label7: TLabel;
+    Layout10: TLayout;
+    Image5: TImage;
+    Image6: TImage;
+    Image7: TImage;
+    Image8: TImage;
+    Image9: TImage;
+    Image10: TImage;
+    Image11: TImage;
+    Image12: TImage;
+    Circle1: TCircle;
+    Layout11: TLayout;
+    lblLogin: TLabel;
+    procedure FormCreate(Sender: TObject);
+    procedure lblCriarContaClick(Sender: TObject);
+    procedure lblLoginClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmLogin: TfrmLogin;
+
+implementation
+
+{$R *.fmx}
+
+procedure TfrmLogin.FormCreate(Sender: TObject);
+begin
+  TabControl.TabPosition := TTabPosition.None;
+  TabControl.ActiveTab := TabLogin;
+end;
+
+procedure TfrmLogin.lblCriarContaClick(Sender: TObject);
+begin
+  actConta.Execute;
+end;
+
+procedure TfrmLogin.lblLoginClick(Sender: TObject);
+begin
+  ActLogin.Execute;
+end;
+
+end.
